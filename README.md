@@ -54,7 +54,7 @@ Unfortunately I have experienced some issues with my GitLab account and I am goi
 - [X] Fix directory issues, that affect the performance of the website
 - [] Comment the remaining code and structure the contents of the project folder properly 
 - [] Fix bugs and issues that may pop during production
-- [] Host
+- [X] Host
 
 ## Project structure
 
