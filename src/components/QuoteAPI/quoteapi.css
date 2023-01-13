@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.QuoteApi{
+    
+    min-height:100vh;
+    display:flex;
+}
+.quote{
+    margin:auto;
+    width:100%;
+    max-width: 400px;
+    min-height:180px;
+    padding:30px;
+    border-radius: 20px;
+    background: var(--color-bg-variant);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: var(--transition);
+}
+button{
+    
+	background:var(--color-bg);
+	background-color:var(--color-primary);
+	border-radius:22px;
+	display:inline-block;
+	cursor:pointer;
+	color:var(--color-bg-variant);
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 32px;
+	text-decoration:none;
+    transition: var(--transition);
+	
+}
+.button:hover{
+    border-color:var(--color-primary-variant);
+    background: transparent;
+}
+.quote__item:hover{
+    border-color:var(--color-primary-variant);
+    background: transparent;
+}
+

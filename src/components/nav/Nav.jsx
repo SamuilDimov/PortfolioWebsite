@@ -6,7 +6,7 @@ import {FiBook} from 'react-icons/fi'
 import {RiServiceLine} from 'react-icons/ri'
 import {FiMessageSquare} from 'react-icons/fi'
 import {useState} from 'react'
-
+{/*=============FUNCTION FOR THE NAV BAR==========*/}
 function Nav() {
   const[activeNav, setActiveNav] = useState('#')
   return (

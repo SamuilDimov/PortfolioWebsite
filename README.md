@@ -23,7 +23,7 @@ npm i @emailjs/browser --save  react-icons --save swiper  react-parallax-card --
 
 After you install the packages you have to run the project with ***npm start***
 
-***Known issues: After shrinking the website to Responsive states, when you go back to a non-responsive state, the Parallax Card tends to bug, but its fixed after refreshing the apge***
+***Known issues: 1.After shrinking the website to Responsive states, when you go back to a non-responsive state, the Parallax Card tends to bug, but its fixed after refreshing the apge 2.The QuoteAPI was done last minute because the API I planned to use was for WhatsApp API that redirects you automatically to a chat, but I did not work so I implemented the QuoteAPI, therefore it looks a little out of place.***
 
 ***Fixed issues: Directory issues, that caused the project to not run smoothly.***
 ***Debuggind SliderJs,removes everything from the screen when I replace SwiperSlide with article and Swiper with div***
@@ -32,7 +32,7 @@ After you install the packages you have to run the project with ***npm start***
 
 ## Commits
 
-Unfortunately I have experienced some issues with my GitLab account and I am going to upload this project on GitHub in only one go without possibilities of show-casing my progress.
+Unfortunately I have experienced some issues with my GitLab account and I am going to upload this project on GitHub, in only one go without possibilities of show-casing my progress.
 
 ## TODO
 - [X] Create the project structure
@@ -48,6 +48,7 @@ Unfortunately I have experienced some issues with my GitLab account and I am goi
 - [X] Add contact page with social medias
 - [X] Add EmailJs so people can contact me directly 
 - [X] Implement my (not-yet finished)CV on the homepage for quick-download
+- [X] Implement an API, either WhatsApp API or a Quote API
 - [X] Create a smooth transition for hovering over divs, buttons and others
 - [X] Implement a Parallax Card on the homepage for Interactive design
 - [X] Fix directory issues, that affect the performance of the website
