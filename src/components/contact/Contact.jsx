@@ -5,7 +5,7 @@ import {SiInstagram} from 'react-icons/si'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-
+ /*===========Function for the EmailJS=================*/
 function Contact() {
   const form=useRef();
   const sendEmail = (e) => {
@@ -43,6 +43,7 @@ function Contact() {
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+4915221685513</h5>
+            
             <a href="https://api.whatsapp.com/send?phone=+4915221685513" target="_blank">Send a message</a>
           </article>
         </div>
